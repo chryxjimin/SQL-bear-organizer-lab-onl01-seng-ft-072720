@@ -12,8 +12,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   "SELECT MAX(age) FROM bears"
-  return bears.name
-  return bears.age
+  return "SELECT bear.name, bear.age"
 end
 
 def select_youngest_bear_and_returns_name_and_age
